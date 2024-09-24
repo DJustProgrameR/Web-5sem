@@ -46,11 +46,11 @@ main {
     margin-top: 20px;
 }
 
-#разделы {
+#section {
     width: 80%;
 }
 
-#разделы a {
+#section a {
     display: inline-block;
     margin: 5px;
     padding: 10px 20px;
@@ -61,7 +61,7 @@ main {
     transition: background-color 0.3s;
 }
 
-#разделы a:hover {
+#section a:hover {
     background-color: #d35400;
 }
 
