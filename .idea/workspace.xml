@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ccfb6be-2c80-4cc6-84b3-722e0cdf5f1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outline.css" beforeDir="false" afterPath="$PROJECT_DIR$/outline.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -34,31 +32,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.test.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/1_5sem/Web/Web-5sem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.podcast.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/1_5sem/Web/Web-5sem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\1_5sem\Web\Web-5sem" />
       <recent name="D:\1_5sem\Web\Web-5sem\testField" />
       <recent name="D:\1_обучение\Web\Web-5sem" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1_5sem\Web\Web-5sem\testField" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-5sem/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="podcast.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-5sem/testField/podcast.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-5sem/testField/test.html" useBuiltInWebServerPort="true">
@@ -68,6 +73,7 @@
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.podcast.html" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +96,10 @@
       <workItem from="1726919101733" duration="1238000" />
       <workItem from="1727177191990" duration="695000" />
       <workItem from="1727199773408" duration="1157000" />
-      <workItem from="1728718804294" duration="6258000" />
+      <workItem from="1728718804294" duration="10474000" />
+      <workItem from="1729706729972" duration="499000" />
+      <workItem from="1730488277732" duration="6084000" />
+      <workItem from="1730529408121" duration="1173000" />
     </task>
     <servers />
   </component>

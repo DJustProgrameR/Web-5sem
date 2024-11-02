@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Смотри.ру</title>
+  <link href="outline.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="description" content="Онлайн кинотеатр для просмотра фильмов, сериалов, аниме, мультиифльвом, подкастов">
+  <script src="./JS/rating_script.js"></script>
+  <script src="./JS/load_speed.js"></script>
+  <script src="./JS/active_section_buttons.js"></script>
+</head>
+<body>
+<header>
+  <img src="background.png" class="banner_image">
+  <h1>Смотри.ру</h1>
+  <p>Умение слушать — большой плюс, а <em>умение делать вид, что слушаешь, и в нужный момент вставлять слово — <strong>талант</strong>.</em></p>
+  <nav>
+    <a href="#footer">О нас</a>
+  </nav>
+</header>
+<main>
+  <div class="container">
+    <div class="column1">
+      <section id="title_sections">
+        <a href="films.html" >Фильмы</a>
+        <a href="series.html" >Сериалы</a>
+        <a href="cartoons.html" >Мультифльмы</a>
+        <a href="anime.html" >Аниме</a>
+        <a href="podcast.html">Подкасты</a>
+        <a href="streams.html" >Стримы</a>
+      </section>
+
+      <section id="titles">
+        <div id="podcasts-content" class="section-content">
+          <div class="title_container clearfix">
+            <div class="column1">
+              <img src="honey_kopatych.png" class="image">
+              <div class="descr">
+                <h2 class="name">Мёд или свобода</h2>
+                <p class="rating">Рейтинг: 9</p>
+                <p class="detailed_descr">Описание: Чего же хотят пчолы на самом деле, разберёмся с нашим косолапым экспертом </p>
+              </div>
+            </div>
+            <div class="column2">
+              <div class="cast">
+                <p>Снимали:</p>
+                <ol type="I">
+                  <li>Копатыч</li>
+                </ol>
+                <p>Снимались:</p>
+                <ol type="I">
+                  <li>Копатыч</li>
+                  <li>Пчола&#769;</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="title_container clearfix">
+            <div class="column1">
+              <img src="where_kopatych.png" class="image">
+              <div class="descr">
+                <h2 class="name">Где жужжится лучше</h2>
+                <p class="rating">Рейтинг: 8</p>
+                <p class="detailed_descr">Описание: Узнаем, где греть крылышки лучше - на лазурном побережье или в Краснодарском крае </p>
+              </div>
+            </div>
+            <div class="column2">
+              <div class="cast">
+                <p>Снимали:</p>
+                <ol type="I">
+                  <li>Копатыч</li>
+                </ol>
+                <p>Снимались:</p>
+                <ol type="I">
+                  <li>Копатыч</li>
+                  <li>Пчола&#769;</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="streams-content" class="section-content"></div>
+      </section>
+    </div>
+    <div class="column2">
+      <section id="search_settings">
+        <h3>Настройки поиска</h3>
+        <div>
+          <label for="min-rating">Минимальный рейтинг:</label>
+          <input type="number" id="min-rating" name="min-rating" min="0" max="10" step="0.1" placeholder="Введите рейтинг">
+        </div>
+        <button type="submit">Применить</button>
+      </section>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</main>
+<footer id="footer">
+  <p>О нас:</p>
+  <nav>
+    <a href="http://example.com/">Контакты</a>
+    <a href="http://example.com/">Правила использования ресурса</a>
+    <a href="http://example.com/">Партнёры</a>
+  </nav>
+  <p id="load-time"></p>
+</footer>
+</body>
+</html>
