@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Shop</title>
+    <link href="clear.css" rel="stylesheet">
+    <link href="default.css" rel="stylesheet">
+    <link href="form_outline.css" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+
+    <script src="./JS/form_JS.js"></script>
+</head>
+
+<body>
+<header class="header">
+    <div class="header__container">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link" href="index.html">Назад на главную</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="toWatch">
+        <div class="toWatch__container">
+            <h2 class="toWatch__title">To watch list</h2>
+            <form class="toWatch__form" id="toWatch-form">
+                <label>
+                    Названия списка фильмов:
+                    <input type="text" name="filmListName" id="filmListName">
+                </label>
+
+                <label>
+                    Название фильма/ссылка:
+                    <input type="text" name="filmLink" id="filmLink">
+                </label>
+
+                <div class="toWatch__buttons">
+                    <button type="button" id="clearButton" class="button toWatch__button">
+                        Очистить
+                    </button>
+
+                    <button type="button" id="addFilmButton" class="button toWatch__button button--primary ">
+                        Добавить
+                    </button>
+                </div>
+
+                <ul class="toWatch__list" id="filmLinks"></ul>
+
+                <label>
+                    Язык
+                    <select name="language" id="language">
+                        <option value="ru">Русский</option>
+                        <option value="en">Английский</option>
+                    </select>
+                </label>
+                <button id="offerToWatchListButton" class="button button--primary toWatch__button"
+                        type="submit">Закрепить</button>
+            </form>
+        </div>
+
+        <div id="result-container" class="result__container"></div>
+    </section>
+</main>
+
+
+</body>
+
+</html>
