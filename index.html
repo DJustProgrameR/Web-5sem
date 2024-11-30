@@ -5,8 +5,12 @@
     <link href="outline.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="description" content="Онлайн кинотеатр для просмотра фильмов, сериалов, аниме, мультиифльвом, подкастов">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/drift-zoom/dist/drift-basic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/drift-zoom/dist/Drift.min.js"></script>
+    <script src="./JS/zoom.js"></script>
     <script src="./JS/rating_script.js"></script>
     <script src="./JS/load_speed.js"></script>
+    <script src="./JS/comments-promise.js"></script>
 </head>
 <body>
 <header>
@@ -40,7 +44,13 @@
                 <div id="films-content" class="section-content">
                     <div class="title_container clearfix">
                         <div class="column1">
-                            <img src="bee.png" class="image">
+                            <div class="zoom-container">
+                                <img
+                                        src="bee.png"
+                                        data-zoom="bee.png"
+                                        alt="Zoomable Image"
+                                        class="zoom-trigger image">
+                            </div>
                             <div class="descr">
                                 <h2 class="name">Медоносная пчола&#769;</h2>
                                 <p class="rating">Рейтинг: 8</p>
@@ -62,7 +72,13 @@
                     </div>
                     <div class="title_container clearfix">
                         <div class="column1">
-                            <img src="bee.png" class="image">
+                            <div class="zoom-container">
+                                <img
+                                        src="bee.png"
+                                        data-zoom="bee.png"
+                                        alt="Zoomable Image"
+                                        class="zoom-trigger image">
+                            </div>
                             <div class="descr">
                                 <h2 class="name">Возвращение пчолы&#769;</h2>
                                 <p class="rating">Рейтинг: 10</p>
@@ -84,7 +100,13 @@
                     </div>
                     <div class="title_container clearfix">
                         <div class="column1">
-                            <img src="bee.png" class="image">
+                            <div class="zoom-container">
+                                <img
+                                        src="bee.png"
+                                        data-zoom="bee.png"
+                                        alt="Zoomable Image"
+                                        class="zoom-trigger image">
+                            </div>
                             <div class="descr">
                                 <h2 class="name">Возвращение пчолы&#769;</h2>
                                 <p class="rating">Рейтинг: 10</p>
@@ -111,7 +133,13 @@
                 <div id="podcasts-content" class="section-content">
                     <div class="title_container clearfix">
                         <div class="column1">
-                            <img src="honey_kopatych.png" class="image">
+                            <div class="zoom-container">
+                                <img
+                                        src="honey_kopatych.png"
+                                        data-zoom="honey_kopatych.png"
+                                        alt="Zoomable Image"
+                                        class="zoom-trigger image">
+                            </div>
                             <div class="descr">
                                 <h2 class="name">Мёд или свобода</h2>
                                 <p class="rating">Рейтинг: 9</p>
@@ -134,7 +162,13 @@
                     </div>
                     <div class="title_container clearfix">
                         <div class="column1">
-                            <img src="where_kopatych.png" class="image">
+                            <div class="zoom-container">
+                                <img
+                                        src="where_kopatych.png"
+                                        data-zoom="where_kopatych.png"
+                                        alt="Zoomable Image"
+                                        class="zoom-trigger image">
+                            </div>
                             <div class="descr">
                                 <h2 class="name">Где жужжится лучше</h2>
                                 <p class="rating">Рейтинг: 8</p>
@@ -173,6 +207,20 @@
     </div>
 </main>
 <footer id="footer">
+    <section class="comments">
+        <h3 class="comments__title">Отзывы</h3>
+        <div class="comments__container">
+            <img
+                    id="preloader"
+                    class="comments__preloader"
+                    src="./loading-thinking.gif"
+                    alt="preloader"
+            />
+            <div class="comment__error" id="error-message"></div>
+            <div id="comments-grid" class="comments__grid">
+            </div>
+        </div>
+    </section>
     <p>О нас:</p>
     <nav>
         <a href="http://example.com/">Контакты</a>

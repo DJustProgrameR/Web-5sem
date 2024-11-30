@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ccfb6be-2c80-4cc6-84b3-722e0cdf5f1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/form_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clear.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_outline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/comments-promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/zoom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outline.css" beforeDir="false" afterPath="$PROJECT_DIR$/outline.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,7 +45,7 @@
     &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/1_5sem/Web/Web-димас&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/1_5sem/Web/Web-5sem&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -82,9 +79,13 @@
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-5sem/testField/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="zoom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="zoom.js" working-dir="$PROJECT_DIR$/JS">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.zoom.js" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.podcast.html" />
@@ -115,7 +116,12 @@
       <workItem from="1730488277732" duration="6084000" />
       <workItem from="1730529408121" duration="9072000" />
       <workItem from="1731680281295" duration="15087000" />
-      <workItem from="1731742163760" duration="2298000" />
+      <workItem from="1731742163760" duration="4407000" />
+      <workItem from="1731850855041" duration="476000" />
+      <workItem from="1732043663941" duration="2000" />
+      <workItem from="1732357101895" duration="9002000" />
+      <workItem from="1732882677760" duration="1158000" />
+      <workItem from="1732964147894" duration="3005000" />
     </task>
     <servers />
   </component>

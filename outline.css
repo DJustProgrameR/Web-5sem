@@ -81,6 +81,12 @@ main {
     float: left;
 }
 
+.drift-zoom-pane {
+    background: none !important;
+    z-index: 1000;
+}
+
+
 .descr{
     padding: 0px 10px 0px 10px;
     float: left;
@@ -189,6 +195,57 @@ h2 {
 
 #search_settings button:hover {
     background-color: #8C5E3C;
+}
+
+.comments__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+.comments__preloader {
+    margin: 0 auto;
+    display: block;
+}
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+.comments__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: var(--screen-width);
+    margin: 0 auto;
+}
+.comment {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    border-radius: var(--border-radius);
+    padding: 8px;
+}
+.comment__container {
+    max-width: 250px;
+}
+.comment__name {
+    text-align: center;
+}
+.comment__email {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.comment__body {
+    line-height: 1.6;
+    max-width: 250px;
+}
+.comment__error {
+    color: red;
+    text-align: center;
 }
 
 footer {
